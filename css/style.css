@@ -168,6 +168,7 @@ header .profile .profile_info h3 {
 }
 
 /* Small gallery thumbnails section */
+
 .container .gallary .mult-gall {
     width: 447px;
     height: 80px;
@@ -194,6 +195,10 @@ header .profile .profile_info h3 {
     border-radius: 10px;
     cursor: pointer;
     overflow: hidden;
+   
+}
+.container .gallary .mult-gall div.one{
+   border:  3px solid  #ff8822
 }
 
 /* Specific thumbnail backgrounds */
@@ -409,6 +414,7 @@ header .profile .profile_info h3 {
     border-radius: 50%;
     display: grid;
     place-items: center;
+    cursor: pointer;
 }
 
 .product-info .box4 .container label[for='red'] {
@@ -533,6 +539,7 @@ header .profile .profile_info h3 {
     border-radius: 5px;
     position: relative;
     padding-left: 20px;
+    cursor: pointer;
 }
 
 
